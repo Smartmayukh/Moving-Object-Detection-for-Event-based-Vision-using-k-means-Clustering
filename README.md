@@ -1,35 +1,13 @@
-# GSCEventMOD
+# Moving Object Detection for Event-based Vision using k-means Clustering
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
 
 
-Python implementation for 'Moving Object Detection for Event-based Vision using Graph Spectral Clustering', ICCV Workshops 2021
+Python implementation for 'Moving Object Detection for Event-based Vision using k-means Clustering'
 
-Authors: [Anindya Mondal*](https://sites.google.com/view/anindyamondal), [Shashant R*](https://www.researchgate.net/profile/Shashant-R), [Jhony H. Giraldo"](https://sites.google.com/view/jhonygiraldo), [Thierry Bouwmans"](https://sites.google.com/site/thierrybouwmans) and [Ananda S. Chowdhury*](https://sites.google.com/site/anandachowdhury)
+Moving object detection is a crucial task in computer vision. Event-based cameras are bio-inspired cameras that mimic the working of the human eye. Unlike conventional frame-based cameras, these cameras pose multiple advantages, like reduced latency, HDR, reduced motion blur during high motion, low power consumption, etc. However, these advantages come at a high cost, as event-based cameras are sensitive to noise and have low resolution. Moreover, for the lack of useful visual features like texture and color, moving object detection in these cameras becomes more challenging. Our proposed method uses k-Means clustering for detecting moving objects in event-based data. We further compare the proposed method against state-of-the-art algorithms and show performance improvement over them.
 
-Institutional affiliations: [\* Jadavpur University, Kolkata, India](http://www.jaduniv.edu.in/); [\" 
-Laboratoire Mathématiques, Image et Applications (MIA), Univ. La Rochelle, France](http://mia.univ-larochelle.fr/)
 
-![Pipeline](https://github.com/anindya2001/GSCEventMOD/blob/main/pipeline.png)
 
-[Paper (CVF Open Access Version)](https://openaccess.thecvf.com/content/ICCV2021W/GSP-CV/papers/Mondal_Moving_Object_Detection_for_Event-Based_Vision_Using_Graph_Spectral_Clustering_ICCVW_2021_paper.pdf),
-[(DOI)](https://ieeexplore.ieee.org/abstract/document/9607843)
-
-For generating synthetic event-data from any frame-based video, please refer to the [v2e](https://sites.google.com/view/video2events/home) framework developed by the Institute of Neuroinformatics, University of Zurich and ETH Zurich. 
-
-If you want to use this code for your own work, please get in touch with me (anindyam.jan@gmail.com) and Shashant R. (shashant7699@gmail.com)
-
-If you use this code, please consider citing:
-
-```
-
-@inproceedings{mondal2021moving,
-  title={Moving Object Detection for Event-based Vision using Graph Spectral Clustering},
-  author={Mondal, Anindya and Shashant, R and Giraldo, Jhony H and Bouwmans, Thierry and Chowdhury, Ananda S},
-  booktitle={2021 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)},
-  pages={876--884},
-  year={2021},
-  organization={IEEE}
-}
-```
